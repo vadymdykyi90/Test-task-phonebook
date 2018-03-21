@@ -11,7 +11,7 @@ export const getFormattedDate = date => {
 };
 
 export const generateRecords = () => {
-  return new Array(10).fill(undefined).map((_, i) => ({
+  return new Array(15).fill(undefined).map((_, i) => ({
     id: `${generateId()}-${i}`,
     data: {
       firstname: `Test-${i}`,
