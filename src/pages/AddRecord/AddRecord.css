@@ -1,0 +1,14 @@
+.recordForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recordForm #submitBtn {
+  margin: 0 15px;
+}
+
+.addRecord .wrapper {
+  display: block;
+  margin: 0 auto;
+  float: initial;
+}
